@@ -47,7 +47,7 @@ Partial Class _Default
 
         'Displaying the monthly payment in the textbox and converts the variable to currency.
 
-        lblMonthlyPmt.Text = "Monthly Payment: " & FormatCurrency(monthlyPayment)
+        lblMonthlyPmt.Text = FormatCurrency(monthlyPayment)
 
         'Adds items to list box, formats them for currency and adds pad spacing for each item.
         loanAmortTbl.Columns.Add("Payment Number", System.Type.GetType("System.String"))

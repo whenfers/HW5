@@ -1,0 +1,23 @@
+body {background-color:lightyellow; color:black; text-align:center}
+
+.bold {font-weight:bold; font-size:30px;}
+
+
+        .cssgridview{max-height: 275px;overflow: auto;border:10px solid #ccc;}
+        .cssgridview{border-collapse: collapse; width:70%;margin-left:240px; margin-right:100px}
+        .cssgridview tr th
+                      {	background-color: #3c454f;
+                color: #ffffff;
+                padding: 10px 5px 10px 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+            .cssgridview tr:nth-child(2n+2){ background-color: #f3f4f5;}
+            .cssgridview tr:nth-child(2n+1) td{background-color: #d6dadf;color: #454545;}
+            .cssgridview tr td
+                       {	padding: 5px 10px 5px 10px;
+                color: #454545;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+                
